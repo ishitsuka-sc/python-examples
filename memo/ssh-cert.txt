@@ -1,0 +1,17 @@
+$ ssh-keygen -f ca.key
+$ ssh-keygen -f user.key
+$ ls
+ca.key	ca.key.pub  user.key  user.key.pub
+
+$ ssh-keygen -s ca.key -I "User cert" -n testuser1 -V +3600 user.key.pub 
+
+$ ssh-keygen -L -f ./user.key-cert.pub 
+
+/etc/ssh/sshd_config
+
+TrustedUserCAKeys /etc/ssh/ca.key.pub
+
+ cp cert and prive key to ~/.ssh/
+
+ connect ssh
+ ssh -v -i ./user.key testuser1@dst-ip

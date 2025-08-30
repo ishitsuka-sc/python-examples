@@ -1,0 +1,8 @@
+root@027e234634c6:/opt/gRPC-pertest/build# ./test_client 
+publish time258570.515404814 to 258580.514690199, duration is9.99386server recv time258570.520832584 to 258580.517075463, duration is9.99624client recv time258570.521913537 to 258580.517799564, duration is9.99589root@027e234634c6:/opt/gRPC-pertest/build# 
+root@027e234634c6:/opt/gRPC-pertest/build# 
+root@027e234634c6:/opt/gRPC-pertest/build# ./test_client 
+publish time258585.801845365 to 258595.800721100, duration is9.99391server recv time258585.806813105 to 258595.802584944, duration is9.99577client recv time258585.811625803 to 258595.803338016, duration is9.99171root@027e234634c6:/opt/gRPC-pertest/build# 
+root@027e234634c6:/opt/gRPC-pertest/build# ./test_client 
+publish time258600.534863148 to 258610.534131076, duration is9.99361server recv time258600.540521566 to 258610.535514309, duration is9.99499client recv time258600.544254334 to 258610.536249081, duration is9.99199root@027e234634c6:/opt/gRPC-pertest/build# 
+

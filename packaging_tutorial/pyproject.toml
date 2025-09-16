@@ -22,6 +22,11 @@ license-files = ["LICEN[CS]E*"]
 Homepage = "https://github.com/pypa/sampleproject"
 Issues = "https://github.com/pypa/sampleproject/issues"
 
+[project.scripts]
+mypkg = "mypackage.main:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+
 [tool.setuptools.package-data]
 mypackage = ["conf.yaml"]
-
